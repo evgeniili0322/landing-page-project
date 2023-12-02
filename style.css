@@ -7,12 +7,14 @@ body {
 .top-container,
 .information,
 .quote-container,
-.sign-up-container {
+.sign-up-container,
+footer {
   display: flex;
   justify-content: center;
 }
 
-.top-container {
+.top-container,
+footer {
   background-color: #1f2937;
 }
 
@@ -146,4 +148,10 @@ header,
 
 .sign-up-button {
   border: 2px solid white;
+}
+
+footer {
+  font-size: 12px;
+  color: white;
+  padding: 32px 0;
 }
