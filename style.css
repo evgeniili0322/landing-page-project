@@ -111,3 +111,23 @@ header,
 .img-subtext {
   color: #505865;
 }
+
+.quote-container {
+  padding: 100px 0;
+  background-color: #e5e7eb;
+}
+
+.quote-content {
+  display: flex;
+}
+
+.quote {
+  flex: 1;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+}
+
+.author {
+  align-self: flex-end;
+}
